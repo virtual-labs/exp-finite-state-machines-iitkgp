@@ -1,39 +1,61 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "In FSM diagram what does circle represent?",
+        "answers": {
+          "a": "Change of state",
+          "b": "State",
+          "c": "Output value",
+          "d": "Initial state"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Moore machine has _________ states than a mealy machine.",
+        "answers": {
+          "a": "Fewer",
+          "b": "More",
+          "c": "Equal",
+          "d": "Negligible"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "State transition happens _______ in every clock cycle.",
+        "answers": {
+          "a": "Once",
+          "b": "Twice",
+          "c": "Thrice",
+          "d": "Four times"
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Which type of memory elements are used in synchronous sequential circuits?",
+        "answers": {
+          "a": "Clocked Flip flops",
+          "b": "Un-clocked Flip flops",
+          "c": "Time Delay Elements",
+          "d": "All of the above"
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "Where are signals received from, at the output decoder in generalized form of Mealy circuit? <br> a) Input of memory elements <br> b) Output of memory elements <br> c) External inputs <br> d) External outputs",
+        "answers": {
+          "a": "A & D",
+          "b": "B & C",
+          "c": "B & D",
+          "d": "A & C"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+    ]
+  }
+  
